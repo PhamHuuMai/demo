@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+<!--
+	<definition name="error" template="/WEB-INF/view/layout/common/error.jsp">
+		<put-attribute name="body" value="/WEB-INF/view/error/error.ftl"
+			type="freemarker" />
+	</definition>
+
+	<definition name="full.definition" template="/WEB-INF/view/layout/layout.jsp">
+		<put-attribute name="resources" value="/WEB-INF/view/layout/resources.ftl"
+			type="freemarker" />
+		<put-attribute name="header" value="/WEB-INF/view/layout/header.ftl"
+			type="freemarker" />
+	</definition>
+ 
+	<definition name="report.demo" extends="full.definition">
+		<put-attribute name="body"
+			value="/WEB-INF/view/controllers/report/report.ftl" type="freemarker" />
+	</definition>
+
+	<definition name="news.feed" extends="full.definition">
+		<put-attribute name="body"
+			value="/WEB-INF/view/controllers/newsfeed/newsfeed.ftl" type="freemarker" />
+		<put-attribute name="resources"
+			value="/WEB-INF/view/layout/resources2.ftl" type="freemarker" />
+	</definition>
+   -->
+    <!-- LoginTemplate  -->
+    <definition name="login_template" template="/WEB-INF/view/layout/login_layout.jsp">
+		<put-attribute name="resource" value="/WEB-INF/view/common/resource.jsp" />
+		<put-attribute name="header" value="/WEB-INF/view/common/header.jsp" />
+		<put-attribute name="center" value="/WEB-INF/view/common/center.jsp" />
+	</definition>
+	
+    <!-- User Template  -->
+    <definition name="user_template" template="/WEB-INF/view/layout/login_layout.jsp">
+		<put-attribute name="resource" value="/WEB-INF/view/common/resource.jsp" />
+		<put-attribute name="header" value="/WEB-INF/view/common/header2.jsp" />
+		<put-attribute name="center" value="/WEB-INF/view/common/user.jsp" />
+	</definition>
+	
+	<!-- Search Template  -->
+	<definition name="search_template" template="/WEB-INF/view/layout/login_layout.jsp">
+		<put-attribute name="resource" value="/WEB-INF/view/common/resource.jsp" />
+		<put-attribute name="header" value="/WEB-INF/view/common/header2.jsp" />
+		<put-attribute name="center" value="/WEB-INF/view/common/user.jsp" />
+	</definition>
+	
+	<!-- MyProfile Template  -->
+	<definition name="myprofile_template" template="/WEB-INF/view/layout/login_layout.jsp">
+		<put-attribute name="resource" value="/WEB-INF/view/common/resource.jsp" />
+		<put-attribute name="header" value="/WEB-INF/view/common/header2.jsp" />
+		<put-attribute name="center" value="/WEB-INF/view/common/MyProfile.jsp" />
+	</definition>
+	
+	<!-- Request Template  -->
+	<definition name="request_template" template="/WEB-INF/view/layout/login_layout.jsp">
+		<put-attribute name="resource" value="/WEB-INF/view/common/resource.jsp" />
+		<put-attribute name="header" value="/WEB-INF/view/common/header2.jsp" />
+		<put-attribute name="center" value="/WEB-INF/view/common/RequestFriend.jsp" />
+	</definition>
+	
+	<!-- UserProfile Template  -->
+	<definition name="userprofile_template" template="/WEB-INF/view/layout/login_layout.jsp">
+		<put-attribute name="resource" value="/WEB-INF/view/common/resource.jsp" />
+		<put-attribute name="header" value="/WEB-INF/view/common/header2.jsp" />
+		<put-attribute name="center" value="/WEB-INF/view/common/UserProfile.jsp" />
+	</definition>
+	
+	
+  
+</tiles-definitions>

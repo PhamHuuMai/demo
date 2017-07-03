@@ -1,0 +1,881 @@
+/*LOGIN CSS*/
+/*HEARER*/
+#header-1{
+	height: 82px;
+	background: #3b5998;
+}
+#header-1 .header-content{
+	width: 1020px;
+}
+#header-1 .title-1 a{
+	font-size: 30px;
+    font-family: 'Righteous', cursive;
+	font-family: 'Bowlby One', cursive;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    height: 82px;
+    line-height: 82px;
+}
+#header-1 .form-header{
+	margin-top: 6px;
+}
+#header-1 .form-header>div{
+	display: inline-block;
+}
+#header-1 .form-header>div:nth-child(n+1){
+	padding-left: 15px;
+}
+#header-1 .form-header>div>*{
+	display: block;
+}
+#header-1 .form-header>div>.text-1{
+	color: #FFF;
+	font-size: 11px;
+}
+#header-1 .form-header>div input{
+	width: 150px;
+	height: 23px;
+	border: 1px solid #444;
+	font-size: 11px;
+	color: #666;
+}
+#header-1 .form-header>div a.forgot-pass{
+	font-size: 11px;
+	color: #9cb4d8;
+}
+#header-1 .form-header>div a.forgot-pass:hover{
+	text-decoration: underline !important;
+}
+#header-1 .form-header>div button{
+	margin-top: 25px;
+	height: 23px;    
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	border-radius: 2px;
+}
+#header-1 .form-header>div button span{
+	display: block;
+	width: 100%;
+	height: 23px;
+	line-height: 23px;
+	font-size: 11px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+/*BODY*/
+#body-1{
+	background: linear-gradient(white, #D3D8E8);
+	padding-bottom: 100px;
+	padding-top: 40px;
+}
+#body-1 .body-left{
+	width: calc(100% - 384px);
+	margin-top: 6px;
+}
+#body-1 .body-right{
+	width: 384px;
+}
+#body-1 .body-left .text .title{
+	font-weight: bold;
+	font-size: 20px;
+	max-width: 537px;
+}
+#body-1 .body-left img{
+	margin-top: 30px;
+	display: block;
+}
+#body-1 .body-right form .title .text{
+	display: block;
+}
+#body-1 .body-right form .title .text-1{
+	display: block;
+	font-weight: bold;
+	font-size: 36px;
+}
+#body-1 .body-right form .input-form>div{
+	margin-top: 15px;
+}
+#body-1 .body-right form input{
+	width: 100%;
+	display: block;
+	padding:  4px 5px;
+	font-size: 14px;
+	color: #888;
+	border-radius: 5px;
+	border: 1px solid #AAA;
+}
+#body-1 .body-right form .born-day .title{
+	font-size: 20px;
+	display: block;
+	margin-bottom: 5px;
+}
+#body-1 .body-right form .born-day select{
+	padding: 3px 4px;
+}
+#body-1 .body-right form input[type="radio"]{
+	width: inherit;
+	display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+#body-1 .body-right form .sex *{
+	float: left;
+	margin-right: 10px;
+}
+#body-1 .body-right form .sex span{
+	font-size: 18px;
+}
+#body-1 .body-right form .button{}
+#body-1 .body-right form .button button{
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 19px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border: 1px solid #555;
+}
+/*MAIN*/
+#header-2 {
+	height: 42px;
+	background-color: #3b5998;
+	padding: 8px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+#header-2 .header-left .logo{
+	margin-right: 5px;
+}
+#header-2 .header-left .logo h1 a{
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	line-height: 26px;
+	color: #3b5998;
+	background: #FFF;
+	text-align: center;
+    font-family: 'Righteous', cursive;
+	font-family: 'Bowlby One', cursive;
+	font-weight: bold;
+	border: none;
+	font-size: 14px;
+	border-radius: 3px;
+}
+#header-2 .header-left form{
+	height: 26px;
+}
+#header-2 .header-left form input{
+	height: 26px;
+	border-radius: 3px 0px 0px 3px;
+	border:1px solid #999;
+	border-right: none;
+	float: left;
+	min-width: 400px;	
+}
+#header-2 .header-left form button{
+	float: left;
+	width: 50px;
+	height: 26px;
+	border: 1px solid #999;
+	background-color: #F3F3F3;
+	border-left: none;
+	border-radius: 0px 3px 3px 0px;
+}
+#header-2 .header-left form button i{
+	color: #888;
+	display: inline-block;
+	line-height: 22px;
+	font-size: 16px;
+}
+#header-2 .header-right .user>*{
+	display: inline-block;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin-right: 5px;
+}
+#header-2 .header-right .user{
+	border-radius: 0px 4px 4px 0px;
+	padding: 1px;
+}
+#header-2 .header-right .user:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#header-2 .header-right .avatar{
+	width: 26px;
+	display: inline-block;
+	background-position: top;
+}
+#header-2 .header-right .name{
+	color: #FFF;
+	font-size: 12px;
+	font-family: inherit;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+}
+#body-2{
+	background-color: #EEE;
+	padding-top: 42px;
+	min-height: 800px;
+}
+#body-2 .content-left,
+#body-2 .content-center,
+#body-2 .content-right{
+	margin-top: 10px;
+}
+#body-2 .content-left{
+	padding-right: 5px;
+	position: relative;
+}
+#body-2 .content-left .content{
+	position: fixed;
+	width: 181px;
+}
+#body-2 .content-right .content{
+}
+#body-2 .content-left .content>*{
+	margin-bottom: 10px;
+    -webkit-transition: all ease .3s; /* Safari */
+    transition: all ease .3s;
+}
+/*#body-2 .content-left>*:hover{
+	background: #FFF;
+	border: 1px solid #BBB;
+}
+*/
+#body-2 .content-left .profile{
+}
+#body-2 .content-left .profile a{
+	display: block;
+	padding: 3px;
+	border: 1px solid #DDD;
+}
+#body-2 .content-left .profile a:hover{
+	background: #FAFAFA;
+}
+#body-2 .content-left .profile a>*:nth-child(n+2){
+	margin-left: 5px;
+}
+#body-2 .content-left .profile a>*{
+	display: inline-block;
+	float: left;
+}
+#body-2 .content-left .profile a .fc-thumb{
+	width: 24px;
+	height: 24px;
+	background-position: top;
+}
+#body-2 .content-left .profile a .fc-thumb img{
+	width: 24px;
+	height: 24px;
+	background-position: top;
+	border-radius: 1px;
+}
+#body-2 .content-left .profile a span{
+	font-size: 13px;
+	color: #444;
+}
+#body-2 .content-left .social{}
+#body-2 .content-left .user .title ,
+#body-2 .content-left .social h3.title{
+}
+#body-2 .content-left .social .title a,
+#body-2 .content-left .user .title a{
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	background: #E7E7E7;
+	padding: 5px 5px 5px 2px;
+}
+#body-2 .content-left .social .title a:hover,
+#body-2 .content-left .user .title a:hover{
+	background: #FAFAFA;
+}
+#body-2 .content-left .user .ul-1{
+}
+#body-2 .content-left .user .ul-1 .li-1 a{
+	display: block;
+	line-height: 20px;
+	float: none;
+	margin-top: 5px;
+	padding: 2px;
+	cursor: pointer;
+	border-radius: 2px;
+	padding-left: 15px;
+}
+#body-2 .content-left .user .ul-1 .li-1:hover{
+	background: #FAFAFA;
+}
+#body-2 .content-left .user .ul-1 .li-1 a{
+	color: #333;
+	font-size: 12px;
+	line-height: 20px;
+}
+#body-2 .content-left .user .ul-1 .li-1 a span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+#body-2 .content-left .user .ul-1 .li-1 a img{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 5px;
+}
+#body-2 .content-left .logout a{
+	display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    background: #E7E7E7;
+    padding: 5px 5px 5px 2px;
+}
+
+#body-2 .content-center>*{
+	background: #FFF;
+	margin-bottom: 10px;
+}
+#body-2 .content-center .create-a-post{
+	padding: 0px 0px 0px 0px;
+	border-radius: 3px;
+	border: 1px solid #d0d1d5;
+}
+#body-2 .content-center .up-status{
+	border-radius: 3px;
+}
+#body-2 .content-center .create-a-post .top{
+	border-bottom: 1px solid #dddfe2;
+	padding: 8px 0px;
+	background: #f6f7f9;
+	border-radius: 3px 3px 0px 0px;
+}
+#body-2 .content-center .create-a-post .top ul li{
+	float: left;
+	color: #666;
+	font-size: 12px;
+	padding: 0px 10px;
+	height: 15px;
+	line-height: 15px;
+}
+#body-2 .content-center .create-a-post .top ul li:nth-child(n+2){
+	border-left: 1px solid #BBB;
+}
+#body-2 .content-center .create-a-post .midle{}
+#body-2 .content-center .create-a-post .midle>*{
+	float: left;
+}
+#body-2 .content-center .create-a-post .midle .avatar{
+	width: 50px;
+	padding: 5px;
+}
+#body-2 .content-center .create-a-post .midle .avatar a{
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+#body-2 .content-center .create-a-post .midle .avatar a img{
+}
+#body-2 .content-center .create-a-post .midle .status{
+	width: calc(100% - 50px);
+}
+#body-2 .content-center .create-a-post .midle .status textarea{
+	width: 100%;
+	border: none;	
+	min-height: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+	line-height: 20px;
+}
+#body-2 .content-center .create-a-post .button{
+	padding: 8px 8px 0px 8px;
+	border-top:  1px solid #dddfe2;
+}
+#body-2 .content-center .create-a-post .button .button-left{
+	padding-right: 10px;
+}
+#body-2 .content-center .create-a-post .button .button-left ul{
+	display: inline-block;
+}
+#body-2 .content-center .create-a-post .button .button-left ul li{
+	display: inline-block;
+	float: left;
+	color: #888;
+	height: 25px;
+	line-height: 25px;
+	width: 25px;
+	text-align: center;
+}
+#body-2 .content-center .create-a-post .button .button-left ul li:nth-child(n+2){
+	padding-left: 10px;
+}
+#body-2 .content-center .create-a-post .button .button-right button{	
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+	background: #4267b2;
+	border: 1px solid #4267b2;
+	border-radius: 2px;
+	padding: 0px 20px;
+}
+#body-2 .content-center .create-a-post .button .button-right button span{
+	color:#FFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+#body-2 .content-center .post{
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #d0d1d5;
+}
+#body-2 .content-center .post .user-info .avatar{
+	padding-right: 10px;
+}
+#body-2 .content-center .post .user-info .avatar .fc-thumb{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+#body-2 .content-center .post .user-info .post-user *{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+#body-2 .content-center .post .user-info .post-user a{
+	color: #365899;
+	font-weight: bold;
+}
+#body-2 .content-center .post .user-info .post-user span,
+#body-2 .content-center .post .user-info .post-user i{
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	color: #999;
+	margin-right: 5px;
+}
+#body-2 .content-center .post .text-content p{
+	line-height: 17px;
+}
+#body-2 .content-right{
+}
+#body-2 .content-right .content{
+	padding: 10px 5px;
+	border:1px solid #d0d1d5;
+	border-radius: 1px;
+	position: fixed;
+	width: 181px;
+	height: calc(100% - 52px);
+	overflow-y: hidden;
+}
+#body-2 .content-right .content .scroll{
+	display: block;
+	height: 100%;
+	width: 190px;
+	padding-right: 5px;
+	overflow-y: scroll;
+}
+#body-2 .content-right .content .title{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #4c4c4c;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+#body-2 .content-right .content .ul-1 .li-1:nth-child(n+2){
+	margin-top: 8px;
+}
+#body-2 .content-right .content .ul-1 .li-1 a{
+	display: block;
+	line-height: 25px;
+}
+#body-2 .content-right .content .ul-1 .li-1 a>*{
+	display: inline-block;
+	float: left;
+}
+#body-2 .content-right .content .ul-1 .li-1 a>*:nth-child(n+2){
+	margin-left: 5px;
+}
+#body-2 .content-right .content .ul-1 .li-1 a .fc-thumb{
+	height: 25px;
+	width: 25px;
+	border:1px solid #d0d1d5;
+}
+#body-2 .content-right .content .ul-1 .li-1 a .online{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: rgb(66, 183, 42);
+	float: right;
+	margin-top: 8px;
+}
+#body-2 .content-right .content .ul-1 .li-1 a span{
+	font-size: 11px;
+	color: #4c4c4c;	
+	height: 25px;
+	overflow-y: hidden;
+	max-width: 100px;
+}
+/**/
+#body-2 .content-center .search-form{
+	padding: 10px 10px 0px 10px;
+	margin-left: -10px;
+	margin-bottom: 0px;
+}
+#body-2 .content-center .search-form button,
+#body-2 .content-center .search-form input{
+	display: inline-block;
+	height: 30px;
+	float: left;
+	border: 1px solid #687d9d;
+}
+#body-2 .content-center .search-form input{
+	border-right: none;
+    border-radius: 3px 0px 0px 3px;
+    width: 500px;
+}
+#body-2 .content-center .search-form button{
+	width: 50px;
+    background-color: #F3F3F3;
+    border-left: none;
+    border-radius: 0px 3px 3px 0px;
+}
+#body-2 .content-center .search-form button i{
+	color: #3b5998;
+}
+#body-2 .content-center .friend-box{
+	padding: 10px;
+	padding-left: 0px;
+}
+#body-2 .content-center .friend-box .box{
+
+}
+#body-2 .content-center .friend-box figure{
+	box-sizing: border-box !important;
+	margin: 0px;
+	border: 1px solid #e9ebee;
+	padding: 1px;
+}
+#body-2 .content-center .friend-box .box:nth-child(n+3){
+	margin-top: 10px;
+}
+#body-2 .content-center .friend-box figure .fc-thumb{
+	display: block;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+#body-2 .content-center .friend-box figure figcaption{
+	margin-left: 110px;
+	padding: 30px 15px 0px 0px;
+	box-sizing: border-box;
+}
+#body-2 .content-center .friend-box figure figcaption>*{
+	height: 40px;
+	line-height: 15px;
+}
+#body-2 .content-center .friend-box figure figcaption .title a{
+	font-weight: bold;
+	color: #365899;
+	font-size: 14px;
+}
+#body-2 .content-center .friend-box figure figcaption .sex{
+	font-size: 11px;
+	color: #888;
+}
+#body-2 .content-center .friend-box figure figcaption .friend-button{}
+#body-2 .content-center .friend-box figure figcaption .friend-button a{
+	display: inline-block;
+	padding: 3px 5px;
+	border: 1px solid #ced0d4;
+	border-radius: 1px;
+	background: #f6f7f9;
+	margin-top: 5px;
+}
+#body-2 .content-center .friend-box figure figcaption .friend-button a span{
+	color: #777;
+	font-weight: bold;
+	font-size: 12px;
+}
+#body-2 .content-center .friend-box figure figcaption .online,
+#body-2 .content-center .friend-box figure figcaption .offline{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+#body-2 .content-center .friend-box figure figcaption .online{
+	background: rgb(66, 183, 42);
+}
+#body-2 .content-center .friend-box figure figcaption .offline{
+	background: #888;	
+}
+
+/**/
+#body-2 .content-center .request-box{
+	padding: 10px;
+	padding-left: 0px;
+}
+#body-2 .content-center .request-box .box{
+
+}
+#body-2 .content-center .request-box figure{
+	box-sizing: border-box !important;
+	margin: 0px;
+	border: 1px solid #e9ebee;
+	padding: 1px;
+}
+#body-2 .content-center .request-box .box:nth-child(n+3){
+	margin-top: 10px;
+}
+#body-2 .content-center .request-box figure .fc-thumb{
+	display: block;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+#body-2 .content-center .request-box figure figcaption{
+	margin-left: 110px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+#body-2 .content-center .request-box figure figcaption>*{
+	line-height: 15px;
+}
+#body-2 .content-center .request-box figure figcaption .title a{
+	font-weight: bold;
+	color: #365899;
+	font-size: 14px;
+}
+#body-2 .content-center .request-box figure figcaption .sex{
+	font-size: 11px;
+	color: #888;
+	margin-top: 4px;
+}
+#body-2 .content-center .request-box figure figcaption .request-button{
+	position: absolute;
+	bottom: 10px;
+	z-index: 1;
+}
+#body-2 .content-center .request-box figure figcaption .request-button a{
+	display: inline-block;
+	padding: 3px 5px;
+	border: 1px solid #ced0d4;
+	border-radius: 3px;
+	background: #f6f7f9;
+}
+#body-2 .content-center .request-box figure figcaption .request-button a span{
+	color: #777;
+	font-weight: bold;
+	font-size: 12px;
+}
+#body-2 .content-center .request-box figure figcaption .request-button .cofirm{
+	background: #4267b2;
+}
+#body-2 .content-center .request-box figure figcaption .request-button .cofirm span{
+	color: #FFF;
+}
+#body-2 .content-center .request-box figure figcaption .online,
+#body-2 .content-center .request-box figure figcaption .offline{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+#body-2 .content-center .request-box figure figcaption .online{
+	background: rgb(66, 183, 42);
+}
+#body-2 .content-center .request-box figure figcaption .offline{
+	background: #888;	
+}
+/*PAGING CSS*/
+.user-paging,
+.request-paging{
+	background: #FFF;
+	padding-bottom: 10px;
+	text-align: center;
+} 
+#pagination-flickr{
+	display: inline-block;
+}
+#pagination-flickr li{
+	border:0; margin:0; padding:0;
+	font-size:11px;
+	list-style:none;
+	display: inline-block;
+}
+ 
+#pagination-flickr a{
+	border:solid 1px #DDDDDD;
+	margin-right:2px;
+	display: inline-block;
+}
+ 
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off{
+	color:#666666;
+	display:block;
+	float:left;
+	font-weight:bold;
+	padding:0px 4px;
+}
+ 
+#pagination-flickr .next a,
+#pagination-flickr .previous a{
+	font-weight:bold;
+	border:solid 1px #FFFFFF;
+}
+ 
+#pagination-flickr .active{
+	color:#ff0084;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:0px 6px;
+}
+ 
+#pagination-flickr a:link,
+#pagination-flickr a:visited{
+	color:#0063e3;
+	display:block;
+	float:left;
+	padding:0px 6px;
+	text-decoration:none;
+}
+ 
+#pagination-flickr a:hover{
+	border:solid 1px #CCCCCC;
+}
+
+/*Profile css*/
+#body-2 .profile-content .avatar{
+	text-align: center;
+}
+
+#body-2 .profile-content .profile-info{
+	margin-top: 10px;
+	background: #FEFEFE;
+	border-radius: 2px;
+	border: 1px solid #EBEBEB;
+	padding: 10px;	
+}
+#body-2 .profile-content .profile-info>*{
+	height: 130px;
+}
+#body-2 .profile-content .avatar .fc-thumb{
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	border-radius: 50%;
+    border:1px solid #dbdbdb;
+}
+#body-2 .profile-content .profile-info .info form>*{
+	margin-top: 5px;
+}
+#body-2 .profile-content .profile-info .info form input,
+#body-2 .profile-content .profile-info .info form select,
+#body-2 .profile-content .profile-info .info form .button{
+	border: 1px solid #FFF;
+	background: #FFF;
+	/*border: 1px solid #EEEEEE;*/
+	height: 25px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#body-2 .profile-content .profile-info .info .username input{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#body-2 .profile-content .profile-info .info form .button{
+	padding: 0 24px;
+	line-height: 25px;
+    border:1px solid #dbdbdb;
+    color: #262626;
+    background: #FFF;
+    border-radius: 2px;
+    font-size: 12px;
+}
+#body-2 .profile-content .profile-info .info form input.border,
+#body-2 .profile-content .profile-info .info form select.border,
+#body-2 .profile-content .profile-info .info form .border{
+	border: 1px solid #EEEEEE;
+}
+
+#body-2 .profile-content .profile-info .info .username{
+	margin-top: 10px;
+}
+#body-2 .profile-content .profile-info .info .username .name{
+    color: #454545;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    float: left;
+    line-height: 28px;
+}
+#body-2 .profile-content .profile-info .info form .edit-profile-button{
+	cursor: pointer;
+	display: inline-block;
+}
+#body-2 .profile-content .profile-info .info form .edit-profile-button>*{
+	float: left;
+	margin-right: 3px;
+}
+#body-2 .profile-content .profile-info .info form #edit-button{
+	padding: 0 24px;
+	width: 70px;
+}
+#body-2 .profile-content .profile-info .info form #save-button,
+#body-2 .profile-content .profile-info .info form #cancel-button{
+	display: none;
+}
+#body-2 .profile-content .profile-info .info form .display{
+	display: inline-block;
+}
+#body-2 .profile-content .profile-info .info form .display-none{
+	display: none;
+}
+#body-2 .profile-content .profile-info .info form input.input-password{
+	display: none;
+}
+#body-2 .profile-content .profile-info .info .status-user{
+	margin-top: 15px;
+}
+#body-2 .profile-content .profile-info .info .status-user a{
+	display: inline-block;
+	padding: 0px 15px;
+	line-height: 25px;
+	background: #FFF;
+	color: #333;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    border:1px solid #dbdbdb;
+    border-radius: 2px;
+    background: #EFEFEF;
+}
+#body-2 .profile-content .profile-info .info form .status{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+#body-2 .profile-content .profile-info .info form .online{
+	background: rgb(66, 183, 42);
+}
+#body-2 .profile-content .profile-info .info form .offline{
+	background: #888;
+}

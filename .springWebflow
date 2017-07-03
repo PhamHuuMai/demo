@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.4.201703310634-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>src/main/webapp/WEB-INF/config/spring/web-flow.xml</file>
+			<name><![CDATA[web-flow]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:MediaReport|3:src/main/webapp/WEB-INF/config/spring/servlet-context.xml]]></beans-config>
+		</config>
+		<config>
+			<file>src/main/webapp/WEB-INF/config/spring/web-flow.xml</file>
+			<name><![CDATA[web-flow]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:MediaReport|3:src/main/webapp/WEB-INF/config/spring/servlet-context.xml]]></beans-config>
+		</config>
+		<config>
+			<file>src/main/webapp/WEB-INF/config/spring/web-flow.xml</file>
+			<name><![CDATA[web-flow]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:MediaReport|3:src/main/webapp/WEB-INF/config/spring/servlet-context.xml]]></beans-config>
+		</config>
+		<config>
+			<file>src/main/webapp/WEB-INF/config/spring/web-flow.xml</file>
+			<name><![CDATA[web-flow]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:MediaReport|3:src/main/webapp/WEB-INF/config/spring/servlet-context.xml]]></beans-config>
+		</config>
+	</configs>
+</webflow-project-description>
